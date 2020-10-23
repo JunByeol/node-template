@@ -7,12 +7,14 @@
   "scripts": {
     "lint": "eslint '**/*.{js,ts}'",
     "ts-node": "ts-node -r tsconfig-paths/register -T",
-    "start": "yarn ts-node src/index.ts"
+    "start": "yarn ts-node src/index.ts",
+    "nodemon": "nodemon --exec yarn ts-node src/index.ts"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.5.0",
     "@typescript-eslint/parser": "^4.5.0",
     "eslint": "^7.11.0",
+    "nodemon": "^2.0.6",
     "ts-node": "^9.0.0",
     "tsconfig-paths": "^3.9.0",
     "typescript": "^4.0.3"
