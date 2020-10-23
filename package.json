@@ -1,0 +1,7 @@
+{
+  "name": "node-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "junsung.yoon <junsung.yoon@devsisters.com>",
+  "license": "MIT"
+}
