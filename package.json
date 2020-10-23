@@ -4,7 +4,13 @@
   "main": "index.js",
   "author": "junsung.yoon <junsung.yoon@devsisters.com>",
   "license": "MIT",
+  "scripts": {
+    "lint": "eslint '**/*.{js,ts}'"
+  },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.5.0",
+    "@typescript-eslint/parser": "^4.5.0",
+    "eslint": "^7.11.0",
     "ts-node": "^9.0.0",
     "typescript": "^4.0.3"
   },
