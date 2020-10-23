@@ -11,6 +11,8 @@
     "nodemon": "nodemon --exec yarn ts-node src/index.ts"
   },
   "devDependencies": {
+    "@types/dotenv-safe": "^8.1.1",
+    "@types/node": "^14.14.2",
     "@typescript-eslint/eslint-plugin": "^4.5.0",
     "@typescript-eslint/parser": "^4.5.0",
     "eslint": "^7.11.0",
@@ -25,5 +27,7 @@
       "pre-commit": "yarn lint"
     }
   },
-  "dependencies": {}
+  "dependencies": {
+    "dotenv-safe": "^8.2.0"
+  }
 }
